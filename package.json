@@ -1,0 +1,10 @@
+{
+  "name": "project-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate with GraphQL(Apollo Server/Client), React, and React Native",
+  "main": "index.js",
+  "repository": "https://github.com/waquidvp/project-boilerplate",
+  "author": "Waquid Valiya Peedikakkal",
+  "license": "MIT",
+  "private": true
+}
