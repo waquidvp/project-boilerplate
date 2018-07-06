@@ -33,7 +33,7 @@ Run using yarn like so: `yarn <script>`
 
 ### Files
 
-- .vscode - configuration for vscode
-- api - api server
-- mobile - react native app
-- web - react app
+- `.vscode` - configuration for vscode
+- `api` - api server
+- `mobile` - react native app
+- `web` - react app
