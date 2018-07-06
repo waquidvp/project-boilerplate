@@ -7,9 +7,27 @@
   "author": "Waquid Valiya Peedikakkal",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "api",
-    "web",
-    "mobile"
-  ]
+  "workspaces": {
+    "packages": [
+      "api",
+      "web",
+      "mobile"
+    ],
+    "nohoist": [
+      "**/react-native/**",
+      "**/react-native",
+      "**/expo/**",
+      "**/expo",
+      "**/react-native-scripts/**",
+      "**/react-native-scripts"
+    ]
+  },
+  "scripts": {
+    "start:web": "yarn workspace web start",
+    "build:web": "yarn workspace web build",
+    "start:mobile": "yarn workspace mobile start",
+    "start:api": "yarn workspace api start",
+    "build:api": "yarn workspace api build",
+    "dev:api": "yarn workspace api dev"
+  }
 }
