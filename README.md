@@ -5,9 +5,8 @@ Boilerplate using GraphQL (Apollo Server/Client), React, and React Native.
 ## Basic Setup
 
 - Yarn - package manager w/ workspaces enabled
-- ESlint - linting
 - TSlint - linting for ts files
-- Prettier w/ ESlint integration - styling
+- Prettier - styling
 - EditorConfig - syncing workspace settings
 
 **Note**: Waiting for [prettier-tslint](https://github.com/azz/prettier-tslint) support for the [Prettier VS Code plugin](https://github.com/prettier/prettier-vscode). See [PR](https://github.com/prettier/prettier-vscode/pull/414). Current solution is that prettier does it's default formating, then tslint runs it's fix, this means the final result uses the config provided to tslint.
@@ -24,7 +23,13 @@ Required extensions:
 
 A combination of Prettier and TSLint is used for linting and styling. Prettier uses the default configuration. TSLint uses the following combination of configurations:
 
-- ``
+- `tslint:recommended`
+- `tslint-eslint-rules` - uses the rules from ESlint
+- `tslint-config-prettier` - plays better with prettier
+
+For react:
+
+- `tslint-react`
 
 ### Scripts
 
