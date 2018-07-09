@@ -16,7 +16,7 @@ Boilerplate using GraphQL (Apollo Server/Client), React, and React Native.
 Required extensions:
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfi)
-- [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [TSlint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 #### Linting & styling
