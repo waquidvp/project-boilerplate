@@ -19,7 +19,9 @@
       "**/expo/**",
       "**/expo",
       "**/react-native-scripts/**",
-      "**/react-native-scripts"
+      "**/react-native-scripts",
+      "**/react-native-typescript-transformer/**",
+      "**/react-native-typescript-transformer"
     ]
   },
   "scripts": {

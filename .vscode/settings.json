@@ -1,10 +1,6 @@
 {
-  "eslint.workingDirectories": ["./mobile", "./web"],
-  "eslint.packageManager": "yarn",
-  "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "tslint.packageManager": "yarn",
-  "tslint.autoFixOnSave": false
+  "tslint.autoFixOnSave": true
 }
